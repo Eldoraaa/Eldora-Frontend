@@ -83,9 +83,7 @@ export default function Home() {
 
             <nav className="absolute inset-x-0 top-0 z-40 flex items-center justify-between gap-4 px-5 py-5 sm:px-8 lg:px-10">
               <a className="inline-flex items-center gap-3" href="#home" aria-label="Eldora home">
-                <span className="grid h-12 w-12 place-items-center rounded-2xl bg-white/70 shadow-inner backdrop-blur-xl">
-                  <Image src="/brand/eldora_logo_nobg.png" alt="Eldora logo" width={36} height={36} />
-                </span>
+                <Image src="/brand/eldora_logo_nobg.png" alt="Eldora logo" width={44} height={44} />
                 <span className="hidden gap-0.5 sm:grid">
                   <strong className="text-[18px] leading-none tracking-[-0.04em] text-eldora-text">Eldora</strong>
                   <small className="text-[11px] font-bold text-eldora-muted">Elderly care, made calmer</small>
@@ -243,7 +241,6 @@ export default function Home() {
 
         <section id="preview" className="p-3 py-20 sm:p-4 sm:py-20">
           <div className="relative overflow-hidden rounded-[2.75rem] border border-white/80 bg-[radial-gradient(circle_at_12%_18%,rgba(255,212,194,0.86),transparent_24rem),radial-gradient(circle_at_86%_12%,rgba(168,216,194,0.42),transparent_28rem),radial-gradient(circle_at_74%_92%,rgba(217,85,69,0.16),transparent_26rem),linear-gradient(135deg,#FFFDFC_0%,#F6F1EC_48%,#FFE7E2_100%)] p-5 text-eldora-text shadow-[0_34px_110px_rgba(23,32,42,0.14)] sm:p-8 lg:p-10">
-            <div className="pointer-events-none absolute inset-0 opacity-[0.1] [background-image:linear-gradient(#D95545_1px,transparent_1px),linear-gradient(90deg,#D95545_1px,transparent_1px)] [background-size:54px_54px]" />
             <div className="pointer-events-none absolute -right-28 -top-28 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(217,85,69,0.25),rgba(255,212,194,0.2)_45%,transparent_70%)]" />
             <div className="pointer-events-none absolute -bottom-28 left-[18%] h-[420px] w-[420px] rounded-full bg-[radial-gradient(circle,rgba(168,216,194,0.34),transparent_68%)]" />
             <div className="relative z-10 grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:items-center">
