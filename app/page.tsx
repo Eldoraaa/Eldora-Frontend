@@ -108,7 +108,7 @@ export default function Home() {
             <div className="grid h-full grid-rows-[1fr_auto] px-5 pb-5 pt-24 sm:px-8 lg:px-10 lg:pt-28">
               <div className="grid min-h-0 items-center gap-6 lg:grid-cols-[0.92fr_1.08fr]">
                 <motion.div className="relative z-20 max-w-[760px]" initial="hidden" animate="visible" transition={{ staggerChildren: 0.1 }}>
-                  <motion.h1 className="max-w-[780px] text-[clamp(4.2rem,11.5vw,10.8rem)] font-black leading-[0.78] tracking-[-0.115em] text-eldora-text" variants={fadeUp}>
+                  <motion.h1 className="max-w-[720px] text-[clamp(3.4rem,9vw,8.4rem)] font-black leading-[0.82] tracking-[-0.105em] text-eldora-text" variants={fadeUp}>
                     Care that feels less heavy.
                   </motion.h1>
                   <motion.p className="mt-9 max-w-[610px] text-[clamp(1rem,1.55vw,1.18rem)] font-semibold leading-[1.8] text-eldora-muted" variants={fadeUp}>
