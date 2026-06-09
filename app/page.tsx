@@ -146,14 +146,6 @@ export default function Home() {
                 </motion.div>
               </div>
 
-              <div className="relative z-20 hidden overflow-hidden rounded-[1.5rem] border border-white/70 bg-white/45 backdrop-blur-xl md:grid md:grid-cols-3">
-                {heroStats.map(([value, label], index) => (
-                  <motion.div key={label} className="border-eldora-line/70 p-4 text-eldora-text md:border-r last:md:border-r-0 lg:p-5" initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 + index * 0.08 }}>
-                    <strong className="block text-[clamp(1.35rem,2.2vw,2rem)] font-black tracking-[-0.06em]">{value}</strong>
-                    <span className="mt-1 block text-[12px] font-bold text-eldora-muted">{label}</span>
-                  </motion.div>
-                ))}
-              </div>
             </div>
           </div>
         </section>
@@ -332,7 +324,11 @@ export default function Home() {
               <small className="text-[12px] font-bold text-eldora-muted">Built for calmer care.</small>
             </span>
           </div>
-          <p>© {new Date().getFullYear()} Eldora. Elderly care, made calmer.</p>
+          <div className="flex flex-wrap gap-4">
+            <a href="/privacy" className="hover:text-eldora-coral">Privacy Policy</a>
+            <a href="/account-deletion" className="hover:text-eldora-coral">Account Deletion</a>
+            <span>© {new Date().getFullYear()} Eldora. Elderly care, made calmer.</span>
+          </div>
         </footer>
       </main>
     </>
